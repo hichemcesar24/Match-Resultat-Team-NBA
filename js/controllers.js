@@ -1,4 +1,3 @@
-// TODO: ADD COMMENTS TO THIS MONSTROSITY
 String.prototype.hashCode = function(){
     var hash = 0;
     if (this.length == 0) return hash;
@@ -12,15 +11,7 @@ String.prototype.hashCode = function(){
 
 var nbaLineupApp = angular.module('nbaLineupApp', ['ngSanitize', 'ui.select', 'ui.bootstrap', 'ngRoute']);
 
-// Service to format results from NBA API results 
-// are returned as an Object with a list of headers
-// and a list of lists, where the values at each index 
-// are keyed to the header at the same index
-// 
-// generateListOfObjects:
-// Use underscore JS to return this as a list of objects
-// with the right key-value pairs.
-//
+
 months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 nbaLineupApp.service('formatAPIResults', function() {
     var formattingService = {
