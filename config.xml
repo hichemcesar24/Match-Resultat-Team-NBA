@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/HistoriqueMatch" version="1.0.0" viewmodes="maximized">
+    <access origin="m" subdomains="true"/>
+    <tizen:allow-navigation>*</tizen:allow-navigation>
+    <tizen:application id="YiiFPIt4VZ.HistoriqueMatch" package="YiiFPIt4VZ" required_version="2.4"/>
+    <content src="index.html"/>
+    <tizen:content-security-policy>*</tizen:content-security-policy>
+    <tizen:content-security-policy-report-only>*</tizen:content-security-policy-report-only>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>HistoriqueMatch</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:profile name="mobile"/>
+</widget>
